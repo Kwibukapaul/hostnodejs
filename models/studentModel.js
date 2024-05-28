@@ -8,7 +8,7 @@ const pool = mysql.createPool({
     host: 'bgsvhkdhhswxsgfhmyko-mysql.services.clever-cloud.com',
     user: 'ulgx4zcwk59htbft',
     password: 'aIV0ggB78mtucAo52Rv0',
-    database: 'student_attendance'
+    database: 'bgsvhkdhhswxsgfhmyko'
 });
 
 // Function to get all students from the database
