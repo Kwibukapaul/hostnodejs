@@ -6,7 +6,7 @@ const pool = mysql.createPool({
     host: 'bgsvhkdhhswxsgfhmyko-mysql.services.clever-cloud.com',
     user: 'ulgx4zcwk59htbft',
     password: 'aIV0ggB78mtucAo52Rv0',
-    database: 'student_attendance'
+    database: 'bgsvhkdhhswxsgfhmyko'
 }); // Assuming you have a database connection
 
 const getUserByuser_name = (user_name, callback) => {
