@@ -5,9 +5,9 @@ const bcrypt = require('bcrypt');
 // Create a MySQL connection pool
 const pool = mysql.createPool({
     connectionLimit: 10,
-    host: 'localhost',
-    user: 'root',
-    password: '',
+    host: 'bgsvhkdhhswxsgfhmyko-mysql.services.clever-cloud.com',
+    user: 'ulgx4zcwk59htbft',
+    password: 'aIV0ggB78mtucAo52Rv0',
     database: 'student_attendance'
 });
 
